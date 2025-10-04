@@ -2,10 +2,6 @@
 from typing import List, Dict
 
 def validate_items(items: List[Dict]) -> None:
-    """
-    Valida cada item: debe tener 'price' >= 0 y 'qty' > 0.
-    Lanza ValueError si algo no es válido.
-    """
     if not isinstance(items, list):
         raise ValueError("items debe ser una lista")
     if len(items) == 0:

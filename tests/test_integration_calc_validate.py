@@ -1,4 +1,5 @@
-# tests/test_integration_calc_validate.py
+# Pruebas de integración entre validate y calc:
+# pytest tests/test_integration_calc_validate.py -s
 import pytest
 from validate import validate_items
 from calc import calculate_total
